@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wartech Sol - Innovative Software Solutions</title>
+    <meta name="description" content="Wartech Sol - Leading software development company providing innovative solutions for modern businesses">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Wartech<span>Sol</span></h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li class="dropdown">
+                    <a href="#about" class="nav-link">About <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#about">Our Story</a>
+                        <a href="#team">Our Team</a>
+                        <a href="#mission">Mission & Vision</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#services" class="nav-link">Services <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#web-dev">Web Development</a>
+                        <a href="#mobile-dev">Mobile Development</a>
+                        <a href="#cloud-services">Cloud Services</a>
+                        <a href="#ai-ml">AI & Machine Learning</a>
+                    </div>
+                </li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#careers" class="nav-link">Careers</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <button class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Innovative</span> Software Solutions
+                    <br>for the <span class="gradient-text">Future</span>
+                </h1>
+                <p class="hero-subtitle">Transforming ideas into powerful digital experiences with cutting-edge technology and creative excellence.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Get Started</button>
+                    <button class="btn btn-secondary">View Portfolio</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card card-1"></div>
+                <div class="floating-card card-2"></div>
+                <div class="floating-card card-3"></div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <div class="container">
+            <h2 class="section-title">Why Choose Wartech Sol</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="stat-number" data-target="500">0</div>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-number" data-target="200">0</div>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="stat-number" data-target="50">0</div>
+                    <p>Awards Won</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="stat-number" data-target="24">0</div>
+                    <p>24/7 Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Wartech Sol</h2>
+                    <p>We are a forward-thinking software development company dedicated to creating innovative solutions that drive business growth and digital transformation.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Expert Development Team</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Cutting-edge Technologies</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>24/7 Customer Support</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="about-card"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card" data-service="web-dev">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Custom web applications built with modern frameworks and technologies.</p>
+                    <button class="btn btn-outline">Learn More</button>
+                </div>
+                <div class="service-card" data-service="mobile-dev">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Development</h3>
+                    <p>Native and cross-platform mobile apps for iOS and Android.</p>
+                    <button class="btn btn-outline">Learn More</button>
+                </div>
+                <div class="service-card" data-service="cloud-services">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Services</h3>
+                    <p>Scalable cloud solutions and infrastructure management.</p>
+                    <button class="btn btn-outline">Learn More</button>
+                </div>
+                <div class="service-card" data-service="ai-ml">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI & Machine Learning</h3>
+                    <p>Intelligent solutions powered by artificial intelligence.</p>
+                    <button class="btn btn-outline">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Our Portfolio</h2>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="ai">AI/ML</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-overlay">
+                        <h3>E-commerce Platform</h3>
+                        <p>Modern online shopping experience</p>
+                        <button class="btn btn-primary">View Project</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="mobile">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-overlay">
+                        <h3>Fitness Tracking App</h3>
+                        <p>Health and wellness mobile app</p>
+                        <button class="btn btn-primary">View Project</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ai">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-overlay">
+                        <h3>AI Analytics Dashboard</h3>
+                        <p>Data visualization and insights</p>
+                        <button class="btn btn-primary">View Project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Pricing Plans</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <div class="price">$999<span>/project</span></div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Basic Web Development</li>
+                        <li><i class="fas fa-check"></i> Responsive Design</li>
+                        <li><i class="fas fa-check"></i> 3 Months Support</li>
+                    </ul>
+                    <button class="btn btn-outline">Choose Plan</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Professional</h3>
+                    <div class="price">$2999<span>/project</span></div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Advanced Development</li>
+                        <li><i class="fas fa-check"></i> Custom Features</li>
+                        <li><i class="fas fa-check"></i> 6 Months Support</li>
+                        <li><i class="fas fa-check"></i> SEO Optimization</li>
+                    </ul>
+                    <button class="btn btn-primary">Choose Plan</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">$5999<span>/project</span></div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Full-Stack Development</li>
+                        <li><i class="fas fa-check"></i> Cloud Integration</li>
+                        <li><i class="fas fa-check"></i> 12 Months Support</li>
+                        <li><i class="fas fa-check"></i> Priority Support</li>
+                    </ul>
+                    <button class="btn btn-outline">Choose Plan</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title">Latest Blog Posts</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image"></div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Dec 15, 2023</span>
+                            <span class="blog-category">Technology</span>
+                        </div>
+                        <h3>The Future of Web Development</h3>
+                        <p>Exploring emerging trends and technologies shaping the future of web development.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image"></div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Dec 10, 2023</span>
+                            <span class="blog-category">AI</span>
+                        </div>
+                        <h3>AI in Modern Applications</h3>
+                        <p>How artificial intelligence is revolutionizing software development and user experiences.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image"></div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Dec 5, 2023</span>
+                            <span class="blog-category">Design</span>
+                        </div>
+                        <h3>UI/UX Design Principles</h3>
+                        <p>Essential design principles for creating intuitive and engaging user interfaces.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Tech Street, Innovation City, IC 12345</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@wartechsol.com</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Careers Section -->
+    <section id="careers" class="careers">
+        <div class="container">
+            <h2 class="section-title">Join Our Team</h2>
+            <p class="section-subtitle">Be part of an innovative team building the future of technology</p>
+            <div class="careers-grid">
+                <div class="career-card">
+                    <h3>Senior Full-Stack Developer</h3>
+                    <div class="career-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> Remote</span>
+                        <span><i class="fas fa-clock"></i> Full-time</span>
+                    </div>
+                    <p>Join our development team to build cutting-edge web applications using modern technologies.</p>
+                    <button class="btn btn-primary">Apply Now</button>
+                </div>
+                <div class="career-card">
+                    <h3>UI/UX Designer</h3>
+                    <div class="career-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> Hybrid</span>
+                        <span><i class="fas fa-clock"></i> Full-time</span>
+                    </div>
+                    <p>Create beautiful and intuitive user experiences for our diverse range of digital products.</p>
+                    <button class="btn btn-primary">Apply Now</button>
+                </div>
+                <div class="career-card">
+                    <h3>DevOps Engineer</h3>
+                    <div class="career-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> On-site</span>
+                        <span><i class="fas fa-clock"></i> Full-time</span>
+                    </div>
+                    <p>Manage and optimize our cloud infrastructure and deployment pipelines.</p>
+                    <button class="btn btn-primary">Apply Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Wartech<span>Sol</span></h3>
+                    <p>Innovative software solutions for the digital age. Transforming ideas into powerful applications.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#web-dev">Web Development</a></li>
+                        <li><a href="#mobile-dev">Mobile Apps</a></li>
+                        <li><a href="#cloud-services">Cloud Services</a></li>
+                        <li><a href="#ai-ml">AI & ML</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Innovation City</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@wartechsol.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Wartech Sol. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Service Detail Modals -->
+    <div id="service-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
